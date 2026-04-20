@@ -1,4 +1,4 @@
-// ================================
+﻿// ================================
 //   CAMPUSQUILL — COMPLETE JS
 // ================================
 const writers = [
@@ -155,7 +155,7 @@ And nothing's left to see more beautiful than thee.`
       title: "The Rain Knows My Name",
       category: "Poem",
       language: "english",
-      featured: true,
+      featured: false,
       date: "April 2026",
       content: `The rain knows my name
         It calls me to the window glass
@@ -172,7 +172,7 @@ And nothing's left to see more beautiful than thee.`
       title: "A More Beautiful Day",
       category: "Poem",
       language: "english",
-      featured: true,
+      featured: false,
       date: "April 2026",
       content: `The sunrise came today all pink and gold,
       And spread its colors proud across the sky,
@@ -230,7 +230,7 @@ And nothing's left to see more beautiful than thee.`
         title: "নিম ফুলের মধু ",
         category: "Poem",
         language: "bengali",
-        featured: true,
+        featured: false,
         date: "17 April 2026",
                   content: `দক্ষিণ খোলা জানলা দিয়ে যখন বাতাসের সঙ্গে সময় কাটাতে ব্যাস্ত , হঠাৎ চোখ গেলো নীচে পরে থাকা শুকনো পাতার সঙ্গে সবুজ পাতাটির দিকে।
           এমন সময় দমকা ঝড়ের মতো আগমন হলো এক অজানা অতিথির। বিরক্তির সঙ্গে আপ্যায়ন করলেও সে আমার আপ্যায়নে তিক্ত হয়নি।
@@ -379,7 +379,7 @@ And nothing's left to see more beautiful than thee.`
             title: "চিঠী",
             category: "Poem",
             language: "bengali",
-            featured: true,
+            featured: false,
             date: "April 2026",
             content: `কেমন আছো তুমি..?
             বড়ো জানতে ইচ্ছা হয় 
@@ -404,7 +404,7 @@ And nothing's left to see more beautiful than thee.`
             title: "বনবিলাসি",
             category: "Poem",
             language: "bengali",
-            featured: true,
+            featured: false,
             date: "April 2026",
             content: `তোমার ওই দুই মায়াভরা চোখে 
 আজ হঠাৎ বিষণ্ণনাতার ছাপ কেন..?
