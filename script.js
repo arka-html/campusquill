@@ -135,7 +135,7 @@ Please hold me tightly in your arms the way gravitational force works. Love me l
     gmail: "arkasamaddar.mym@gmail.com",
     photo: "admin.jpeg",
     language: "english",
-    bio: "Not every sad story has a breakup, But every breakup has its own sad story.",
+    bio: " Fair is foul, and foul is fair: Hover through the fog and filthy air. ",
     joinedDate: "April 2026",
     isFounder: true,
     works: [
