@@ -743,16 +743,21 @@ function renderFeatured() {
 function renderWorks(worksToShow = allWorks) {
   const grid      = document.getElementById('worksGrid');
   const noResults = document.getElementById('noResults');
+  const worksOverlay = document.getElementById('worksOverlay');
+  currentFilteredWorks = worksToShow;
 
   if (worksToShow.length === 0) {
     grid.innerHTML = '';
     noResults.style.display = 'block';
+    grid.classList.remove('preview-active');
+    worksOverlay.style.display = 'none';
     return;
   }
 
   noResults.style.display = 'none';
+  const visibleWorks = worksToShow.slice(0, visibleWorksCount);
 
-  grid.innerHTML = worksToShow.map(work => `
+  grid.innerHTML = visibleWorks.map(work => `
     <div class="work-card reveal"
          onclick="openModal(
            '${work.id}','${work.writer.id}'
@@ -795,6 +800,7 @@ function renderWorks(worksToShow = allWorks) {
     </div>
   `).join('');
 
+  updateWorksOverlay();
   observeReveal();
 }
 // ================================
@@ -858,10 +864,15 @@ function renderWriters() {
 const filterBtns  = document.querySelectorAll('.filter-btn');
 const langBtns    = document.querySelectorAll('.lang-filter-btn');
 const searchInput = document.getElementById('searchInput');
+const worksOverlay = document.getElementById('worksOverlay');
 
 let activeCategory = 'all';
 let activeLang     = 'all';
 let searchQuery    = '';
+const WORKS_PREVIEW_COUNT = 6;
+const WORKS_PAGE_SIZE = 6;
+let visibleWorksCount = WORKS_PAGE_SIZE;
+let currentFilteredWorks = [];
 
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -886,6 +897,24 @@ searchInput.addEventListener('input', e => {
   applyFilters();
 });
 
+worksOverlay.addEventListener('click', () => {
+  visibleWorksCount = currentFilteredWorks.length;
+  renderWorks(currentFilteredWorks);
+});
+
+function updateWorksOverlay() {
+  const grid = document.getElementById('worksGrid');
+
+  if (currentFilteredWorks.length <= visibleWorksCount) {
+    grid.classList.remove('preview-active');
+    worksOverlay.style.display = 'none';
+    return;
+  }
+
+  grid.classList.add('preview-active');
+  worksOverlay.style.display = 'flex';
+}
+
 function applyFilters() {
   let filtered = allWorks;
 
@@ -908,6 +937,7 @@ function applyFilters() {
     );
   }
 
+  visibleWorksCount = WORKS_PREVIEW_COUNT;
   // ✅ Shuffle before rendering!
   renderWorks(shuffleWorks(filtered));
 }
