@@ -422,19 +422,19 @@ And nothing's left to see more beautiful than thee.`
           },
         ]
       },
-           // ======= New entry =======
-     /* {
-        id: "deblina-mondal",
-        name: "Deblina Mondal",
+           // ======= Arnav Bhattacharya =======
+    {
+        id: "arnav-bhattacharya",
+        name: "Arnav Bhattacharya",
         college: "Memari College",
-        year: "2nd Year B.A. English",
-        gmail: "deblinamondal579@gmail.com",
-        photo: "deblina-mondal.jpg",
-        language: "bengali",
-        bio: "𝑰'𝒎 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒅𝒓𝒆𝒂𝒎, 𝒕𝒉𝒆 𝒅𝒂𝒚 𝒊𝒔 𝒚𝒆𝒕 𝒕𝒐 𝒄𝒐𝒎𝒆...🌻",
-        joinedDate: "April 2026",
+        year: "3rd Year B.A. English",
+        gmail: "bhattacharyaa556@gmail.com",
+        photo: "arnab-bhattacharya.jpg",
+        language: "English, Bengali, Hindi, Urdu, Gurmukhi",
+        bio: "উদয়ের পথে শুনি কার বাণী, ভয় নাই, ওরে ভয় নাই– / নিঃশেষে প্রাণ যে করিবে দান / ক্ষয় নাই তার ক্ষয় নাই।",
+        joinedDate: "28 April 2026",
         works: [
-          {
+          /*{
             id: "চিঠী",
             title: "চিঠী",
             category: "Poem",
@@ -447,30 +447,10 @@ And nothing's left to see more beautiful than thee.`
               যা অবাস্তবতার মতন।
               তবু ঘটে চলে মনের মাঝে, হৃদয়ে রক্ত ক্ষরনের সাখে সাথে।
               রক্ত ক্ষরণ হয় না তো এমনি, যখনই ভাবি বাস্তবতা তখনি হয় তা বুঝি আমি।`
-          },
-          {
-            id: "বনবিলাসি",
-            title: "বনবিলাসি",
-            category: "Poem",
-            language: "bengali",
-            featured: true,
-            date: "April 2026",
-            content: `তোমার ওই দুই মায়াভরা চোখে 
-আজ হঠাৎ বিষণ্ণনাতার ছাপ কেন..?
-উন্মাদ করা হাসির পিছুনে এত দুঃখ কেন..?
-তুমি যে বনবিলাসি, তোমার ওই বনের মাঝে হারিয়ে যাওয়া হৃদয়ে আজ হঠাৎ অভিমানের রাত কেন..?
-তুমি যে বনবিলাসি..!!
-তোমার নিশ্চই ভালো লাগে দূর থেকে উড়ে আসা অজানা অচেনা পাখির দল কে
-তুমি নিশ্চয় ভালোবাসো অজানা ফুলের সুন্দর গন্ধ কে 
-অসময়ে ছুটে আসা মেঘ কে ..!!
-মনে হয় খুব নিরবে..!! নিঃসঙ্গতায়..!!
-বনের মধ্যে থাকা অজানা অচেনা একাকীত্ব কে
-নিশ্চই তুমি ভালোবাসো..!!
-তাহলে কেনো তোমার চোখে জমে আছে হাজারো অভিমানী এর রাত, অবহেলিত প্রভাত..?
-তুমি যে বনবিলাসি...!!  `
-          },
+          },*/
+          
         ]
-      }, */
+      }      
 ];
 
 // ================================
