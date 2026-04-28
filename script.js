@@ -702,6 +702,9 @@ function renderFeatured() {
          onclick="openModal(
            '${work.id}','${work.writer.id}'
          )">
+      <div class="card-deco-icon">
+        ${getCategoryIcon(work.category)}
+      </div>
       <div class="card-category">
         ${getCategoryIcon(work.category)}
         ${work.category}
@@ -762,6 +765,9 @@ function renderWorks(worksToShow = allWorks) {
          onclick="openModal(
            '${work.id}','${work.writer.id}'
          )">
+      <div class="card-deco-icon small">
+        ${getCategoryIcon(work.category)}
+      </div>
       <div class="card-category">
         ${getCategoryIcon(work.category)}
         ${work.category}
@@ -814,6 +820,9 @@ function renderWriters() {
     <div class="${writer.isFounder
       ? 'writer-card founder-card reveal'
       : 'writer-card reveal'}">
+      <div class="writer-card-deco">
+        <i class="fas fa-quote-right"></i>
+      </div>
 
       <div class="writer-photo">
         ${getAvatar(writer)}
@@ -824,6 +833,7 @@ function renderWriters() {
       </div>
 
       <div class="writer-college">
+        <i class="fas fa-building-columns"></i>
         ${writer.college}
       </div>
 
@@ -965,6 +975,9 @@ function openModal(workId, writerId) {
       ${work.category}
       ${getLangBadge(work.language)}
     </span>
+    <div class="modal-ornament">
+      <i class="fas fa-book-open"></i>
+    </div>
     <h2 class="modal-title
         ${isBengali ? 'bengali-text' : ''}">
       ${work.title}

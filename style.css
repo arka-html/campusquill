@@ -505,14 +505,34 @@ body {
 }
 
 .section-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 3px;
-  display: block;
   margin-bottom: 1rem;
+}
+
+.section-tag-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.14),
+    rgba(212, 175, 55, 0.18)
+  );
+  border: 1px solid rgba(139, 94, 60, 0.18);
+  font-size: 0.8rem;
+  flex-shrink: 0;
 }
 
 .section-title {
@@ -554,6 +574,36 @@ body {
   touch-action: manipulation;
 }
 
+.card-deco-icon {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.08),
+    rgba(212, 175, 55, 0.14)
+  );
+  color: var(--accent);
+  border: 1px solid rgba(139, 94, 60, 0.12);
+  opacity: 0.95;
+  transition: transform 0.3s ease,
+              background 0.3s ease;
+}
+
+.card-deco-icon.small {
+  width: 38px;
+  height: 38px;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.9rem;
+}
+
 .featured-card::before {
   content: '';
   position: absolute;
@@ -568,6 +618,16 @@ body {
   transform: translateY(-8px);
   box-shadow: 0 20px 60px var(--shadow-hover);
   border-color: var(--accent);
+}
+
+.featured-card:hover .card-deco-icon,
+.work-card:hover .card-deco-icon {
+  transform: translateY(-2px) scale(1.04);
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.14),
+    rgba(212, 175, 55, 0.2)
+  );
 }
 
 .card-category {
@@ -916,6 +976,8 @@ body.dark-mode .works-overlay-text {
   border-radius: 12px;
   padding: 2rem;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
   transition: all 0.3s ease;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
@@ -1004,14 +1066,32 @@ body.dark-mode .works-overlay-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
+}
+
+.writer-card-deco {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--accent);
+  opacity: 0.14;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease,
+              opacity 0.3s ease;
 }
 
 .writer-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 50px var(--shadow-hover);
   border-color: var(--accent);
+}
+
+.writer-card:hover .writer-card-deco {
+  opacity: 0.26;
+  transform: translateY(-2px);
 }
 
 .writer-photo {
@@ -1051,6 +1131,9 @@ body.dark-mode .works-overlay-text {
 }
 
 .writer-college {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-family: 'Inter', sans-serif;
   font-size: 0.76rem;
   color: var(--accent);
@@ -1058,6 +1141,10 @@ body.dark-mode .works-overlay-text {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 0.8rem;
+}
+
+.writer-college i {
+  font-size: 0.72rem;
 }
 
 .writer-bio {
@@ -1199,6 +1286,24 @@ body.dark-mode .works-overlay-text {
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
+}
+
+.modal-ornament {
+  width: 54px;
+  height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.1),
+    rgba(212, 175, 55, 0.16)
+  );
+  color: var(--accent);
+  border: 1px solid rgba(139, 94, 60, 0.12);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
 }
 
 .modal-title {
@@ -1601,6 +1706,17 @@ body.dark-mode .works-overlay-text {
    ============================== */
 @media (max-width: 768px) {
 
+  .section-tag {
+    gap: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  .section-tag-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 0.72rem;
+  }
+
   .nav-links {
     position: fixed;
     top: 0; right: -100%;
@@ -1646,6 +1762,26 @@ body.dark-mode .works-overlay-text {
   .works-grid,
   .writers-grid {
     grid-template-columns: 1fr;
+  }
+
+  .card-deco-icon {
+    width: 36px;
+    height: 36px;
+    top: 0.9rem;
+    right: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .writer-card-deco {
+    top: 0.85rem;
+    right: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .modal-ornament {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
   }
 
   .section-container { padding: 70px 1.5rem; }
