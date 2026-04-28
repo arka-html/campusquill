@@ -133,7 +133,7 @@ Please hold me tightly in your arms the way gravitational force works. Love me l
     college: "Memari College",
     year: "2nd Year B.A. English",
     gmail: "arkasamaddar.mym@gmail.com",
-    photo: "",
+    photo: "admin.jpeg",
     language: "english",
     bio: " Fair is foul, and foul is fair: Hover through the fog and filthy air. ",
     joinedDate: "April 2026",
