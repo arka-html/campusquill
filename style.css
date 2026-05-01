@@ -161,6 +161,37 @@ body {
 .nav-links a:hover { color: var(--accent); }
 .nav-links a:hover::after { width: 100%; }
 
+.nav-library-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1rem;
+  border: 1px solid rgba(139, 94, 60, 0.2);
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.08),
+    rgba(212, 175, 55, 0.16)
+  );
+  color: var(--accent) !important;
+  box-shadow: 0 10px 24px rgba(139, 94, 60, 0.08);
+}
+
+.nav-library-link::after {
+  display: none;
+}
+
+.nav-library-link i {
+  font-size: 0.82rem;
+}
+
+.nav-library-link:hover {
+  color: white !important;
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
@@ -1543,6 +1574,30 @@ body.dark-mode .works-overlay-text {
 
 .footer-links a:hover { color: var(--accent); }
 
+.footer-library-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.75rem 1.2rem;
+  border: 1px solid rgba(139, 94, 60, 0.2);
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.08),
+    rgba(212, 175, 55, 0.16)
+  );
+  color: var(--accent) !important;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  box-shadow: 0 12px 26px rgba(139, 94, 60, 0.08);
+}
+
+.footer-library-link:hover {
+  color: white !important;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
 .footer-bottom {
   border-top: 1px solid var(--border);
   padding-top: 2rem;
@@ -1737,6 +1792,12 @@ body.dark-mode .works-overlay-text {
 
   .nav-links.open { right: 0; }
   .nav-links a { font-size: 1.1rem; }
+  .nav-library-link {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1rem;
+    font-size: 0.92rem !important;
+  }
   .hamburger { display: flex; }
 
   .hero { padding: 90px 1.5rem 60px; }
@@ -1792,6 +1853,11 @@ body.dark-mode .works-overlay-text {
   }
 
   .footer-links { justify-content: center; }
+  .footer-library-link {
+    width: 100%;
+    justify-content: center;
+    max-width: 320px;
+  }
 
   .modal-box { padding: 2rem 1.5rem; }
   .modal-title { font-size: 1.5rem; }
