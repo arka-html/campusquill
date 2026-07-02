@@ -355,14 +355,13 @@ And nothing's left to see more beautiful than thee.`
             কেমন করে আবার আমি বেঁচে উঠি, এক অজেয় বেশে। `
           },
           {
-            id: "Tomorrow's Stranger",
+            id: "Tomorrow's-Stranger",
             title: "Tomorrow's Stranger",
             category: "Poem",
             language: "english",
             featured: true,
             date: "July 2026",
-            content: `
-              When I think of her in her memory, it feels like this,
+            content: `When I think of her in her memory, it feels like this,
               How do I even explain how it feels?
               It's as if it's raining in the one-sided darkness,
               and somewhere, the sunlight pierces through the clouds.
@@ -375,8 +374,7 @@ And nothing's left to see more beautiful than thee.`
               She wants to maintain a connection with everyone,
               and I too want to keep her... just for the sake of peace of mind.
               When I think of her in her memory, it feels like this,
-              As if the heart, even after breaking, still waits only for her.
- `
+              As if the heart, even after breaking, still waits only for her.`
           },
     ]
   },
