@@ -283,7 +283,7 @@ And nothing's left to see more beautiful than thee.`
         loving desire, being furious not fast.`
       },
       {
-            id: "birah-prasthan",
+            id: "biraha-prasthan",
             title: "বিরহ প্রস্থান",
             category: "Poem",
             language: "bengali",
@@ -331,6 +331,52 @@ And nothing's left to see more beautiful than thee.`
             এই গভীর বন্ধন আর পূর্ণতা পাবে না,
             ‘সুস্থ প্রেমের’ অভিশাপ রূপে রয়ে
             বিরহ-সুখে আসীন, আবার একাকী নীরবে। `
+          },
+          {
+            id: "Ajeyo-pran",
+            title: "অজেয় প্রাণ",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "July 2026",
+            content: `
+            দেখতে কি পাও তুমি, ওগো আমার ভালোবাসা, আমার ক্ষত?
+            পাঁজরের নিচে লুকিয়ে থাকা সেই অদৃশ্য খঞ্জরের মতো।
+            তুমিও যদি একে কেবলই এক সাধারণ ছুরি মনে করো,
+            ভুল প্রমাণ করব তোমায়—এর আঘাত যে আরও গভীর, আরও বড়।
+            ছুঁইয়ে দেওয়া কোনো খঞ্জর নয় এ, এ যেন এক বিশাল বর্শার ফলা,
+            বক্ষ চিরে সে গড়েছে এক বৃত্ত, স্তব্ধ করেছে সব কথা বলা।
+
+            কী আর এসে যায় তাতে, তুমি আমায় ছেড়ে চলে গেছো আজ কত দিন—
+            একাকীত্বের এই আঁধারে আমি কাটাই প্রহর, বড়ই নিঃস্ব ও উদাসীন।
+            এসো প্রিয়, আরও একবার তবে শেষ চেষ্টা করে দেখি,
+            তোমার ঢেলে দেওয়া সব বিষ শুষে নিয়ে নিজেকে করি খাঁটি;
+            তারপর নিজের চোখে চেয়ে দেখো তুমি এই যন্ত্রণার শেষে—
+            কেমন করে আবার আমি বেঁচে উঠি, এক অজেয় বেশে। `
+          },
+          {
+            id: "Tomorrow's Stranger",
+            title: "Tomorrow's Stranger",
+            category: "Poem",
+            language: "english",
+            featured: true,
+            date: "July 2026",
+            content: `
+              When I think of her in her memory, it feels like this,
+              How do I even explain how it feels?
+              It's as if it's raining in the one-sided darkness,
+              and somewhere, the sunlight pierces through the clouds.
+
+              If we meet after a while,
+              Let us remain silent and let her crave to speak.
+              Right now, she only wanted to keep it as friendship,
+              Tomorrow, if she backs out, she'll become just another stranger.
+
+              She wants to maintain a connection with everyone,
+              and I too want to keep her... just for the sake of peace of mind.
+              When I think of her in her memory, it feels like this,
+              As if the heart, even after breaking, still waits only for her.
+ `
           },
     ]
   },
