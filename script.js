@@ -354,6 +354,26 @@ And nothing's left to see more beautiful than thee.`
             তারপর নিজের চোখে চেয়ে দেখো তুমি এই যন্ত্রণার শেষে—
             কেমন করে আবার আমি বেঁচে উঠি, এক অজেয় বেশে। `
           }, 
+          {
+            id: "tomorrows-stranger",
+            title: "Tomorrow's Stranger",
+            category: "Poem",
+            language: "english",
+            featured: true,
+            date: "July 2026",
+            content: `When I think of her in her memory, it feels like this,
+            How do I even explain how it feels?
+            It's as if it's raining in the one-sided darkness,
+            and somewhere, the sunlight pierces through the clouds.
+            If we meet after a while,
+            Let us remain silent and let her crave to speak.
+            Right now, she only wanted to keep it as friendship,
+            Tomorrow, if she backs out, she'll become just another stranger.
+            She wants to maintain a connection with everyone,
+            and I too want to keep her... just for the sake of peace of mind.
+            When I think of her in her memory, it feels like this,
+            As if the heart, even after breaking, still waits only for her.`
+          }, 
     ]
   },
         // ======= Sanglap Ghosal =======
