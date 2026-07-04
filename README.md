@@ -178,14 +178,14 @@ graph LR
 
 ---
 
-### Editor's Choice Showcase
+### Writers own profile card
 <img width="1176" alt="Curated collection of featured submissions with visual cards" src="https://github.com/user-attachments/assets/e6a44a0c-4f36-40b2-8f2b-61aced83f67f" />
 
 *Weekly handpicked selections highlighting exceptional student creativity*
 
 ---
 
-### Article Reading Experience
+### Submiting your works 
 <img width="1176" alt="Typography-focused article layout with distraction-free reading environment" src="https://github.com/user-attachments/assets/ebdd8cf4-6d8a-4524-a3fc-ad032cbe560b" />
 
 *Immersive reading interface optimized for long-form content consumption*
