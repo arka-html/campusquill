@@ -337,7 +337,7 @@ And nothing's left to see more beautiful than thee.`
             title: "অজেয় প্রাণ",
             category: "Poem",
             language: "bengali",
-            featured: true,
+            featured: false,
             date: "July 2026",
             content: `
             দেখতে কি পাও তুমি, ওগো আমার ভালোবাসা, আমার ক্ষত?
@@ -359,7 +359,7 @@ And nothing's left to see more beautiful than thee.`
             title: "Tomorrow's Stranger",
             category: "Poem",
             language: "english",
-            featured: true,
+            featured: false,
             date: "July 2026",
             content: `When I think of her in her memory, it feels like this,
             How do I even explain how it feels?
@@ -373,6 +373,26 @@ And nothing's left to see more beautiful than thee.`
             and I too want to keep her... just for the sake of peace of mind.
             When I think of her in her memory, it feels like this,
             As if the heart, even after breaking, still waits only for her.`
+          }, 
+          {
+            id: "তুমি",
+            title: "তুমি",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "July 2026",
+            content: `আমি এক জ্ঞানপাপী, সবই জানি, সবই বুঝি,
+            সাগরপাড়ের নুড়ি হয়ে শুধু নিজের অস্তিত্ব খুঁজি।
+            দিশেহারা হয়ে ভেসে চলি আমি দিক-বিদিকের টানে,
+            সব জেনেও চুপটি করে থাকি, এক অদ্ভুত অভিমানে।
+
+            তুমি তো প্রেমের পূজারিনী, এ জগতের মোহময়ী আলো,
+            আর আমি এক অন্তহীন স্রোতে ভেসে চলা এক কালো।
+            কেউ আসেনি এই নির্জন পথে, তবু তুমি পাশে ছিলে দাঁড়িয়ে,
+            মিথ্যা অভিনয়ে পাছে হারিয়ে না যাই, হাতটি রেখেছ বাড়িয়ে।
+
+            আমার এই জীবনটা বড় ছন্নছাড়া, বড় এলোমেলো আর একা,
+            যেখানে কেবল যাযাবর সুখের সাথেই মেলে ক্ষণিকের দেখা।`
           }, 
     ]
   },
