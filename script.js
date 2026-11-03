@@ -79,7 +79,7 @@ For every piece of you still lives in me.`
     joinedDate: "April 2026",
     works: [
       {
-        id: "দৃষ্টি-উন্মোচন",
+        id: "drishti-unmochon",
         title: "দৃষ্টি উন্মোচন",
         category: "Poem",
         language: "bengali",
@@ -203,7 +203,7 @@ And nothing's left to see more beautiful than thee.`
     joinedDate: "April 2026",
     works: [
       {
-        id: "ক্যাকটাস ",
+        id: "Kakatas",
         title: "ক্যাকটাস ",
         category: "Poem",
         language: "bengali",
@@ -226,8 +226,8 @@ And nothing's left to see more beautiful than thee.`
   আর ক্যাকটাস হলো ভালোবাসা " ।`
       },
       {
-        id: "নিম-ফুলের-মধু ",
-        title: "নিম ফুলের মধু ",
+        id: "Nim-fuler-modhu",
+        title: "নিম ফুলের মধু",
         category: "Poem",
         language: "bengali",
         featured: false,
@@ -375,7 +375,7 @@ And nothing's left to see more beautiful than thee.`
             As if the heart, even after breaking, still waits only for her.`
           }, 
           {
-            id: "তুমি",
+            id: "Tumi",
             title: "তুমি",
             category: "Poem",
             language: "bengali",
@@ -394,6 +394,30 @@ And nothing's left to see more beautiful than thee.`
             আমার এই জীবনটা বড় ছন্নছাড়া, বড় এলোমেলো আর একা,
             যেখানে কেবল যাযাবর সুখের সাথেই মেলে ক্ষণিকের দেখা।`
           }, 
+           {
+            id: "Ovimaner-shesh-pata",
+            title: "অভিমানের শেষ পাতা",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `গন্তব্য এখনো বহুদূরে রয়ে গেছে,
+            তবু আপাতত কিছুটা দূরত্ব কমেছে।
+            তাদের পিছে নিজেকে তিল তিল করে উজাড় করার পর,
+            আজ এক কঠিন সত্যের মুখোমুখি দাঁড়িয়েছে এই অন্তর।
+            উপেক্ষা করাই ছিল তাদের চিরচেনা স্বভাব,
+            নিজেকে সম্পূর্ণ হারানোর পর বুঝলাম সেই অভাব।
+            অকৃত্রিম, বেপরোয়া ভালোবাসা জমা ছিল এই বুকে,
+            আজ তা ধুলোয় মিশে নিঃশ্বাস আলাদা হলো সুখে।
+            যাকে কেবল এক পলক দেখলেই জুড়িয়ে যেত প্রাণ,
+            আজ তার হাতেই ছাই হলো আমার সমস্ত অভিমান।
+            যার হাসিতে লেখা ছিল আমার সব আনন্দের ইতিবৃত্ত,
+            আজ সেই মানুষটাই কেড়ে নিল আমার ভালোবাসার সমস্ত অর্থ।
+            হৃদয়ের এই নীরব হাহাকার কেউ কি কখনো শুনবে?
+            যে পাখি বাসা বাঁধেনি, সে কি আর ঘরে ফিরবে?
+            অনন্ত অধ্যায়ের শেষ পাতায় আজ কেবলই শূন্যতা,
+            ভাঙা স্বপ্নের পথ ধরে হেঁটে চলাই এখন একমাত্র বাস্তবতা।`
+          },
     ]
   },
         // ======= Sanglap Ghosal =======
@@ -409,7 +433,7 @@ And nothing's left to see more beautiful than thee.`
         joinedDate: "April 2026",
         works: [
           {
-            id: "আরো-কিছুক্ষন-থাকলে-না-হয়",
+            id: "aro-kichukkhon-thakle-na-hoy",
             title: "আরো কিছুক্ষন থাকলে না হয়",
             category: "Poem",
             language: "bengali",
@@ -437,7 +461,7 @@ And nothing's left to see more beautiful than thee.`
         joinedDate: "April 2026",
         works: [
           {
-            id: "চিঠী",
+            id: "chithi",
             title: "চিঠী",
             category: "Poem",
             language: "bengali",
@@ -462,7 +486,7 @@ And nothing's left to see more beautiful than thee.`
             আর আমার ঠিকানায়..? সেই C/O `
           },         
  {
-            id: "বনবিলাসি",
+            id: "banbilashi",
             title: "বনবিলাসি",
             category: "Poem",
             language: "bengali",
@@ -487,7 +511,7 @@ And nothing's left to see more beautiful than thee.`
             title: "𝖨𝗃𝖺𝖺𝗓𝖺𝗍 𝖧𝖺𝗂𝗇...? 📜",
             category: "Poem",
             language: "hindi",
-            featured: true,
+            featured: false,
             date: "August 2026",
             content: `𝘛𝘶 𝘬𝘢𝘩𝘦 𝘵𝘰𝘩 𝘮𝘢𝘳𝘵𝘦 𝘥𝘢𝘮 𝘵𝘢𝘬 𝘪𝘯𝘵𝘦𝘻𝘢𝘢𝘳 𝘬𝘢𝘳𝘶𝘯...
             𝘛𝘶 𝘬𝘢𝘩𝘦 𝘵𝘰𝘩 𝘵𝘦𝘳𝘦 𝘪𝘫𝘢𝘢𝘻𝘢𝘵 𝘬𝘦 𝘣𝘪𝘯𝘢 𝘮𝘦𝘳𝘦 𝘗𝘢𝘪𝘳 𝘣𝘩𝘪 𝘯𝘢 𝘩𝘪𝘭𝘢𝘶𝘯.
