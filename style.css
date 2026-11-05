@@ -1601,7 +1601,7 @@ body.dark-mode .works-overlay-text {
 .footer-bottom {
   border-top: 1px solid var(--border);
   padding-top: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-bottom p {
@@ -1610,7 +1610,7 @@ body.dark-mode .works-overlay-text {
   color: var(--text-muted);
 }
 
-.footer-bottom i { color: var(--accent); }
+.footer-bottom i { color:#ff4040; }
 
 /* ==============================
    ANIMATIONS
