@@ -8,12 +8,12 @@ const writers = [
     id: "mrittika-konar",
     name: "Mrittika Konar",
     college: "Memari College",
-    year: "2nd Year B.A. English",
+    year: "3rd Year B.A. English",
     gmail: "mrittikakonar@gmail.com",
     photo: "mrittika.jpeg",
     language: "english",
     bio: "শব্দজাল বুনি আপন ছন্দে!",
-    joinedDate: "April 2026",
+    joinedDate: "9 April 2026",
     works: [
       {
         id: "find-me",
@@ -71,12 +71,12 @@ For every piece of you still lives in me.`
     id: "shreyasi-singha-roy",
     name: "Shreyasi Singha Roy",
     college: "Memari College",
-    year: "2nd Year B.A. English",
+    year: "3rd Year B.A. English",
     gmail: "shreyasisingharoy1@gmail.com",
     photo: "shreyasi.jpg",
     language: "bengali",
     bio: "Beyond time and form, the self dissolves into one infinite silence",
-    joinedDate: "April 2026",
+    joinedDate: "9 April 2026",
     works: [
       {
         id: "drishti-unmochon",
@@ -131,12 +131,12 @@ Please hold me tightly in your arms the way gravitational force works. Love me l
     id: "arka-samaddar",
     name: "Arka Samaddar",
     college: "Memari College",
-    year: "2nd Year B.A. English",
+    year: "3rd Year B.A. English",
     gmail: "arkasamaddar.mym@gmail.com",
     photo: "admin.jpeg",
     language: "english",
     bio: " Fair is foul, and foul is fair: Hover through the fog and filthy air. ",
-    joinedDate: "April 2026",
+    joinedDate: "13 May 2026",
     isFounder: true,
     works: [
     {
@@ -195,12 +195,12 @@ And nothing's left to see more beautiful than thee.`
     id: "ankita-mondal",
     name: "Ankita Mondal ",
     college: "Memari College",
-    year: "2nd Year B.A. English",
+    year: "3rd Year B.A. English",
     gmail: "anktamondal2006@gmail.com",
     photo: "ankita.jpg",
     language: "bengali",
     bio: "অবুঝ অধরা মাধুরী",
-    joinedDate: "April 2026",
+    joinedDate: "9 April 2026",
     works: [
       {
         id: "Kakatas",
@@ -231,7 +231,7 @@ And nothing's left to see more beautiful than thee.`
         category: "Poem",
         language: "bengali",
         featured: false,
-        date: "17 April 2026",
+        date: "April 2026",
                   content: `দক্ষিণ খোলা জানলা দিয়ে যখন বাতাসের সঙ্গে সময় কাটাতে ব্যাস্ত , হঠাৎ চোখ গেলো নীচে পরে থাকা শুকনো পাতার সঙ্গে সবুজ পাতাটির দিকে।
           এমন সময় দমকা ঝড়ের মতো আগমন হলো এক অজানা অতিথির। বিরক্তির সঙ্গে আপ্যায়ন করলেও সে আমার আপ্যায়নে তিক্ত হয়নি।
           বরং সে আমাকে করা শাসনের সঙ্গে বোঝালো সবুজের মনে...
@@ -244,6 +244,24 @@ And nothing's left to see more beautiful than thee.`
           অপেক্ষায় আছি ওনার জন্য প্রকৃত ভালোবাসার বরণ ডালা সাজিয়ে...
           অপেক্ষায় রইলাম " নিম ফুলের মধু " গ্রহণ করার...`
       },
+      {
+        id: "uphar",
+        title: "উপহার",
+        category: "Poem",
+        language: "bengali",
+        featured: true,
+        date: "November 2026",
+                  content: `আমি কারোর জীবনের গোলাপ হতে চাই না ।
+                            চাই না আমি গোলাপের মতো ভালোবাসা ।
+                            চাই না আমি উপহারের লাল গোলাপ 
+                            আমি চাই তার জীবনের  কম্পাস হতে ,
+                            আমি চাই তার জীবনের গোলাপের কাঁটা হতে ।
+                            তার থেকে উপহারে আমি চাই একটা গোলাপের কাঁটা এবং একটি কম্পাস ।
+                            যদি গোলাপের কাঁটা এবং কম্পাসের  জায়গা দিতে না পারো...
+                            তাহলে সেই জায়গা আমার চাই না ।
+                            চাই না সেই গোলাপের মতো ভালোবাসা।
+                            আমি চাই তোমার জীবনের কম্পাস আর গোলাপের কাঁটা হতে।`
+      },
     ]
   },
   // ======= Lokesh Sahani =======
@@ -251,12 +269,12 @@ And nothing's left to see more beautiful than thee.`
     id: "lokesh-sahani",
     name: "Lokesh Sahani",
     college: "Memari College",
-    year: "2nd Year B.A. English",
+    year: "3rd Year B.A. English",
     gmail: "lokeshsahani200@gmail.com",
     photo: "lokesh-sahani.jpg",
     language: "bengali, english, hinglish",
     bio: "ছন্নছাড়া ধ্রুব তারা, জীবন হতে দিশেহারা",
-    joinedDate: "April 2026",
+    joinedDate: "9 April 2026",
     works: [
       {
         id: "stream-eternal-merge",
@@ -425,12 +443,12 @@ And nothing's left to see more beautiful than thee.`
         id: "sanglap-ghosal",
         name: "Sanglap Ghosal",
         college: "Memari College",
-        year: "2nd Year B.A. English",
+        year: "3rd Year B.A. English",
         gmail: "sanglapghosal1234@gmail.com",
         photo: "sanlap-ghosal.jpg",
         language: "bengali, english",
         bio: "Simplicity Is The Ultimate Sophistication 💚 🍀",
-        joinedDate: "April 2026",
+        joinedDate: "10 April 2026",
         works: [
           {
             id: "aro-kichukkhon-thakle-na-hoy",
@@ -453,12 +471,12 @@ And nothing's left to see more beautiful than thee.`
         id: "deblina-mondal",
         name: "Deblina Mondal",
         college: "Memari College",
-        year: "2nd Year B.A. English",
+        year: "3rd Year B.A. English",
         gmail: "deblinamondal579@gmail.com",
         photo: "deblina-mondal.jpg",
         language: "bengali",
         bio: "𝑰'𝒎 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒅𝒓𝒆𝒂𝒎, 𝒕𝒉𝒆 𝒅𝒂𝒚 𝒊𝒔 𝒚𝒆𝒕 𝒕𝒐 𝒄𝒐𝒎𝒆...🌻",
-        joinedDate: "April 2026",
+        joinedDate: "13 April 2026",
         works: [
           {
             id: "chithi",
@@ -544,7 +562,7 @@ And nothing's left to see more beautiful than thee.`
         id: "arnav-bhattacharya",
         name: "Arnav Bhattacharya",
         college: "Memari College",
-        year: "3rd Year B.A. English",
+        year: "Final Year B.A. English",
         gmail: "bhattacharyaa556@gmail.com",
         photo: "arnab-bhattacharya.jpg",
         language: "English, Bengali, Hindi, Urdu, Gurmukhi",
@@ -567,7 +585,35 @@ And nothing's left to see more beautiful than thee.`
           }, */
           
         ]
-      }      
+      }, 
+        // ======= Chandrani Ghoshal =======
+      {
+        id: "chandrani-ghoshal",
+        name: "Chandrani Ghoshal",
+        college: "Memari College",
+        year: "1st Year B.A. English",
+        gmail: "chandrani.babin1947@gmail.com",
+        photo: "chandrani-ghoshal.jpg",
+        language: "bengali, english",
+        bio: "Smile is the best way to hide pain ✨🌷",
+        joinedDate: "7 November 2026",
+        works: [
+          /*{
+            id: "aro-kichukkhon-thakle-na-hoy",
+            title: "আরো কিছুক্ষন থাকলে না হয়",
+            category: "Poem",
+            language: "bengali",
+            featured: false,
+            date: "April 2026",
+            content: `কল্পনার ভেলায় চড়ে তুমি আস হৃদয়ের মাঝে।
+              দেখেনা এ পৃথিবী তোমার আমার প্রীতি।
+              তুমিও হয়তো জানোনা, কখনো ভাবোনা, তোমার আমার মিলন।
+              যা অবাস্তবতার মতন।
+              তবু ঘটে চলে মনের মাঝে, হৃদয়ে রক্ত ক্ষরনের সাখে সাথে।
+              রক্ত ক্ষরণ হয় না তো এমনি, যখনই ভাবি বাস্তবতা তখনি হয় তা বুঝি আমি।`
+          }*/
+        ]
+      },     
 ];
 
 // ================================
