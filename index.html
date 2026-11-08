@@ -158,9 +158,19 @@
         <input
           type="text"
           id="searchInput"
-          placeholder="Search by title or author name..."
+          placeholder="Search by title, author, or poem ID..."
           class="search-input"
         />
+      </div>
+
+      <div class="sort-controls">
+        <label for="sortSelect">Sort by</label>
+        <select id="sortSelect" class="sort-select">
+          <option value="title-asc">Title (A–Z)</option>
+          <option value="title-desc">Title (Z–A)</option>
+          <option value="date-desc">Newest first</option>
+          <option value="date-asc">Oldest first</option>
+        </select>
       </div>
 
       <!-- Category Filters -->

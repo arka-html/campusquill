@@ -598,20 +598,20 @@ And nothing's left to see more beautiful than thee.`
         bio: "Smile is the best way to hide pain ✨🌷",
         joinedDate: "7 November 2026",
         works: [
-          /*{
-            id: "aro-kichukkhon-thakle-na-hoy",
-            title: "আরো কিছুক্ষন থাকলে না হয়",
+          {
+            id: "jibontori",
+            title: "জীবন তরী ✨",
             category: "Poem",
             language: "bengali",
-            featured: false,
-            date: "April 2026",
-            content: `কল্পনার ভেলায় চড়ে তুমি আস হৃদয়ের মাঝে।
-              দেখেনা এ পৃথিবী তোমার আমার প্রীতি।
-              তুমিও হয়তো জানোনা, কখনো ভাবোনা, তোমার আমার মিলন।
-              যা অবাস্তবতার মতন।
-              তবু ঘটে চলে মনের মাঝে, হৃদয়ে রক্ত ক্ষরনের সাখে সাথে।
-              রক্ত ক্ষরণ হয় না তো এমনি, যখনই ভাবি বাস্তবতা তখনি হয় তা বুঝি আমি।`
-          }*/
+            featured: true,
+            date: "November 2026",
+            content: `আমার জীবন তরী,
+            নয় যে খুব সোজা
+            নদীর মতো এঁকেবেঁকে যায়।
+            আমার জীবন তরী
+            একলা যে চায় যেতে,
+            যায় সে যেতে, নৌকা যেমন বায় 🍁`
+          }
         ]
       },     
 ];
@@ -1017,11 +1017,13 @@ function renderWriters() {
 const filterBtns  = document.querySelectorAll('.filter-btn');
 const langBtns    = document.querySelectorAll('.lang-filter-btn');
 const searchInput = document.getElementById('searchInput');
+const sortSelect  = document.getElementById('sortSelect');
 const worksOverlay = document.getElementById('worksOverlay');
 
 let activeCategory = 'all';
 let activeLang     = 'all';
 let searchQuery    = '';
+let sortOrder      = 'title-asc';
 const WORKS_PREVIEW_COUNT = 6;
 const WORKS_PAGE_SIZE = 6;
 let visibleWorksCount = WORKS_PAGE_SIZE;
@@ -1047,6 +1049,11 @@ langBtns.forEach(btn => {
 
 searchInput.addEventListener('input', e => {
   searchQuery = e.target.value.toLowerCase().trim();
+  applyFilters();
+});
+
+sortSelect.addEventListener('change', () => {
+  sortOrder = sortSelect.value;
   applyFilters();
 });
 
@@ -1086,13 +1093,27 @@ function applyFilters() {
   if (searchQuery) {
     filtered = filtered.filter(w =>
       w.title.toLowerCase().includes(searchQuery) ||
-      w.writer.name.toLowerCase().includes(searchQuery)
+      w.writer.name.toLowerCase().includes(searchQuery) ||
+      w.id.toLowerCase().includes(searchQuery)
     );
   }
 
   visibleWorksCount = WORKS_PREVIEW_COUNT;
-  // ✅ Shuffle before rendering!
-  renderWorks(shuffleWorks(filtered));
+  const sorted = [...filtered].sort((a, b) => {
+    if (sortOrder.startsWith('date')) {
+      const dateDifference = Date.parse(a.date) - Date.parse(b.date);
+      return sortOrder === 'date-asc'
+        ? dateDifference
+        : -dateDifference;
+    }
+
+    const titleDifference = a.title.localeCompare(b.title);
+    return sortOrder === 'title-desc'
+      ? -titleDifference
+      : titleDifference;
+  });
+
+  renderWorks(sorted);
 }
 
 // ================================
