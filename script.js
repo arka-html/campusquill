@@ -638,7 +638,33 @@ And nothing's left to see more beautiful than thee.`
             মুক্তি করে
             অন্তিমের অপেক্ষার। 🤍`
           },
+          {
+            id: "loving-someone",
+            title: "Loving someone 🌼",
+            category: "Poem",
+            language: "english",
+            featured: true,
+            date: "November 2026",
+            content: ` I want to say that 
+                      "I love you,"
+                      But I can't.
 
+                      I want to see you
+                      And see you
+                      But I can't.
+
+                      I want to walk like you 
+                      Do work like you 
+                      But I can't.
+
+                      I want to heart like you,
+                      Love like you
+                      But I can't.
+
+                      Still, I desire
+                      Little attention from thee,
+                      And I happy!🍁`
+          },
         ]
       },     
 ];
