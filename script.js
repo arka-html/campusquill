@@ -14,6 +14,7 @@ const writers = [
     language: "english",
     bio: "শব্দজাল বুনি আপন ছন্দে!",
     joinedDate: "9 April 2026",
+    likes: 27,
     works: [
       {
         id: "find-me",
@@ -77,6 +78,7 @@ For every piece of you still lives in me.`
     language: "bengali",
     bio: "Beyond time and form, the self dissolves into one infinite silence",
     joinedDate: "9 April 2026",
+    likes: 18,
     works: [
       {
         id: "drishti-unmochon",
@@ -137,6 +139,7 @@ Please hold me tightly in your arms the way gravitational force works. Love me l
     language: "english",
     bio: " Fair is foul, and foul is fair: Hover through the fog and filthy air. ",
     joinedDate: "13 May 2026",
+    likes: 15,
     isFounder: true,
     works: [
     {
@@ -201,6 +204,7 @@ And nothing's left to see more beautiful than thee.`
     language: "bengali",
     bio: "অবুঝ অধরা মাধুরী",
     joinedDate: "9 April 2026",
+    likes: 30,
     works: [
       {
         id: "Kakatas",
@@ -275,6 +279,7 @@ And nothing's left to see more beautiful than thee.`
     language: "bengali, english, hinglish",
     bio: "ছন্নছাড়া ধ্রুব তারা, জীবন হতে দিশেহারা",
     joinedDate: "9 April 2026",
+    likes: 35,
     works: [
       {
         id: "stream-eternal-merge",
@@ -449,6 +454,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Simplicity Is The Ultimate Sophistication 💚 🍀",
         joinedDate: "10 April 2026",
+        likes: 10,
         works: [
           {
             id: "aro-kichukkhon-thakle-na-hoy",
@@ -477,6 +483,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali",
         bio: "𝑰'𝒎 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒅𝒓𝒆𝒂𝒎, 𝒕𝒉𝒆 𝒅𝒂𝒚 𝒊𝒔 𝒚𝒆𝒕 𝒕𝒐 𝒄𝒐𝒎𝒆...🌻",
         joinedDate: "13 April 2026",
+        likes: 21,
         works: [
           {
             id: "chithi",
@@ -568,6 +575,7 @@ And nothing's left to see more beautiful than thee.`
         language: "English, Bengali, Hindi, Urdu, Gurmukhi",
         bio: "উদয়ের পথে শুনি কার বাণী, ভয় নাই, ওরে ভয় নাই– / নিঃশেষে প্রাণ যে করিবে দান / ক্ষয় নাই তার ক্ষয় নাই।",
         joinedDate: "28 April 2026",
+        likes: 0,
         works: [
           /*{
             id: "চিঠী",
@@ -597,6 +605,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Smile is the best way to hide pain ✨🌷",
         joinedDate: "7 November 2026",
+        likes: 10,
         works: [
           {
             id: "jibontori",
@@ -678,6 +687,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english,hindi",
         bio: "Enough wise to be a fool ",
         joinedDate: "7 November 2026",
+        likes: 0,
         works: [
           /*{
             id: "jibontori",
@@ -1079,6 +1089,11 @@ function renderWriters() {
           ${writer.works.length}
           ${writer.works.length === 1
             ? 'Work' : 'Works'} Published
+        </div>
+        <div class="writer-likes-count"
+             aria-label="${writer.name.trim()} got ${writer.likes} likes">
+          <i class="fas fa-heart" aria-hidden="true"></i>
+          ${writer.likes} ${writer.likes === 1 ? 'Like' : 'Likes'}
         </div>
         <div class="writer-since-badge">
           <i class="fas fa-star"></i>

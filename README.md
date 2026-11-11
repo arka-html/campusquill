@@ -99,6 +99,7 @@ Sophisticated discovery tools enabling readers to explore content by:
 - **Individual Profile Pages:** Dedicated spaces showcasing each writer's complete bibliography
 - **Bio & Social Links:** Personal branding opportunities with external profile connections
 - **Contribution Tracking:** Automated cataloging of published works per author
+- **Editor-Managed Likes:** Manually curated like counts displayed on writer profiles
 
 #### Frictionless Onboarding
 Designed for simplicity without sacrificing data integrity:

@@ -1231,6 +1231,21 @@ body.dark-mode .works-overlay-text {
   font-size: 0.72rem;
 }
 
+.writer-likes-count {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.writer-likes-count i {
+  color: #c94b55;
+  font-size: 0.78rem;
+}
+
 /* ✅ WRITER SINCE BADGE */
 .writer-since-badge {
   display: inline-flex;
