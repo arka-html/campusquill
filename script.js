@@ -666,7 +666,35 @@ And nothing's left to see more beautiful than thee.`
                       And I happy!🍁`
           },
         ]
-      },     
+      },   
+       // ======= Soumya Roy =======
+      {
+        id: "soumya-roy",
+        name: "Soumya Roy",
+        college: "Memari College",
+        year: "3rd Year B.A. English",
+        gmail: "soumyaroy.sr20@gmail.com",
+        photo: "soumya-roy.jpg",
+        language: "bengali, english,hindi",
+        bio: "Enough wise to be a fool ",
+        joinedDate: "7 November 2026",
+        works: [
+          /*{
+            id: "jibontori",
+            title: "জীবন তরী ✨",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `আমার জীবন তরী,
+            নয় যে খুব সোজা
+            নদীর মতো এঁকেবেঁকে যায়।
+            আমার জীবন তরী
+            একলা যে চায় যেতে,
+            যায় সে যেতে, নৌকা যেমন বায় 🍁`
+          },*/
+        ]
+      },  
 ];
 
 // ================================
