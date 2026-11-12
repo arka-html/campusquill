@@ -14,7 +14,7 @@ const writers = [
     language: "english",
     bio: "শব্দজাল বুনি আপন ছন্দে!",
     joinedDate: "9 April 2026",
-    likes: 27,
+    likes: 29,
     works: [
       {
         id: "find-me",
@@ -78,7 +78,7 @@ For every piece of you still lives in me.`
     language: "bengali",
     bio: "Beyond time and form, the self dissolves into one infinite silence",
     joinedDate: "9 April 2026",
-    likes: 18,
+    likes: 20,
     works: [
       {
         id: "drishti-unmochon",
@@ -139,7 +139,7 @@ Please hold me tightly in your arms the way gravitational force works. Love me l
     language: "english",
     bio: " Fair is foul, and foul is fair: Hover through the fog and filthy air. ",
     joinedDate: "13 May 2026",
-    likes: 15,
+    likes: 14,
     isFounder: true,
     works: [
     {
@@ -204,7 +204,7 @@ And nothing's left to see more beautiful than thee.`
     language: "bengali",
     bio: "অবুঝ অধরা মাধুরী",
     joinedDate: "9 April 2026",
-    likes: 30,
+    likes: 32,
     works: [
       {
         id: "Kakatas",
@@ -279,7 +279,7 @@ And nothing's left to see more beautiful than thee.`
     language: "bengali, english, hinglish",
     bio: "ছন্নছাড়া ধ্রুব তারা, জীবন হতে দিশেহারা",
     joinedDate: "9 April 2026",
-    likes: 35,
+    likes: 36,
     works: [
       {
         id: "stream-eternal-merge",
@@ -454,7 +454,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Simplicity Is The Ultimate Sophistication 💚 🍀",
         joinedDate: "10 April 2026",
-        likes: 10,
+        likes: 11,
         works: [
           {
             id: "aro-kichukkhon-thakle-na-hoy",
@@ -483,7 +483,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali",
         bio: "𝑰'𝒎 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒅𝒓𝒆𝒂𝒎, 𝒕𝒉𝒆 𝒅𝒂𝒚 𝒊𝒔 𝒚𝒆𝒕 𝒕𝒐 𝒄𝒐𝒎𝒆...🌻",
         joinedDate: "13 April 2026",
-        likes: 21,
+        likes: 23,
         works: [
           {
             id: "chithi",
@@ -605,7 +605,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Smile is the best way to hide pain ✨🌷",
         joinedDate: "7 November 2026",
-        likes: 10,
+        likes: 11,
         works: [
           {
             id: "jibontori",
@@ -704,7 +704,99 @@ And nothing's left to see more beautiful than thee.`
             যায় সে যেতে, নৌকা যেমন বায় 🍁`
           },*/
         ]
+      },
+       // ======= Soumita Pan =======
+      {
+        id: "soumita-pan",
+        name: "Soumita Pan",
+        college: "Memari College",
+        year: "3rd Year B.A. English",
+        gmail: "soumitapan06@gmail.com",
+        photo: "soumita-pan.jpeg",
+        language: "bengali",
+        bio: "নীরবতায় সব প্রকাশ করি,শব্দে কিছু বলি না।",
+        joinedDate: "11 November 2026",
+        likes: 2,
+        works: [
+          {
+            id: "jibontori",
+            title: "অনুরাগে ভালোবাসা",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `অভিমানের ভেলায় ভাসি, 
+            মেঘলা আকাশ, তবুও হাসি।
+            না বলা সব কথার ভিড়ে,
+            মন খুঁজে পাই চেনা তীরে।
+
+            নীরবতায় কথা বলে,
+            সময় বয়ে যায় আপন ছলে।
+            বারুক কেবল গভীর মায়া।
+            তবুও কোথাও আশা জাগে,
+            সব না - বলা কথার বা‍ঁকে,
+            মুছবে অভিমান প্রেমের দাগে।`
+          },
+        ]
       },  
+       // ======= Shiba Das =======
+      {
+        id: "shiba-das",
+        name: "Shiba Das",
+        college: "Memari College",
+        year: "3rd Year B.A. English",
+        gmail: "shibad675@gmail.com",
+        photo: "shiba-das.jpg",
+        language: "bengali, english",
+        bio: "যাহা আমার গন্তব্য ভেবে বিচালিত হয়, তাহা আমার গন্তব্য নহে। এই ব্রহ্মাণ্ড প্রান্ত  শেষ, সেই গন্তব্য মধ্যেই বিচলিত শেষ।",
+        joinedDate: "11 November 2026",
+        likes: 0,
+        works: [
+          /*{
+            id: "jibontori",
+            title: "জীবন তরী ✨",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `আমার জীবন তরী,
+            নয় যে খুব সোজা
+            নদীর মতো এঁকেবেঁকে যায়।
+            আমার জীবন তরী
+            একলা যে চায় যেতে,
+            যায় সে যেতে, নৌকা যেমন বায় 🍁`
+          },*/
+        ]
+      },  
+       // ======= Sufi Fardin Islam =======
+      {
+        id: "sufi-fardin-islam",
+        name: "Sufi Fardin Islam",
+        college: "Memari College",
+        year: "3rd Year B.A. English",
+        gmail: "sufifardini@gmail.com",
+        photo: "fardin-islam.jpg",
+        language: "bengali, english,hindi",
+        bio: "Guided by fortitude, unfazed by external noise.",
+        joinedDate: "11 November 2026",
+        likes: 0,
+        works: [
+          /*{
+            id: "jibontori",
+            title: "জীবন তরী ✨",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `আমার জীবন তরী,
+            নয় যে খুব সোজা
+            নদীর মতো এঁকেবেঁকে যায়।
+            আমার জীবন তরী
+            একলা যে চায় যেতে,
+            যায় সে যেতে, নৌকা যেমন বায় 🍁`
+          },*/
+        ]
+      },    
 ];
 
 // ================================
