@@ -612,7 +612,7 @@ And nothing's left to see more beautiful than thee.`
             title: "জীবন তরী ✨",
             category: "Poem",
             language: "bengali",
-            featured: true,
+            featured: false,
             date: "November 2026",
             content: `আমার জীবন তরী,
             নয় যে খুব সোজা
@@ -750,22 +750,26 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "যাহা আমার গন্তব্য ভেবে বিচালিত হয়, তাহা আমার গন্তব্য নহে। এই ব্রহ্মাণ্ড প্রান্ত  শেষ, সেই গন্তব্য মধ্যেই বিচলিত শেষ।",
         joinedDate: "11 November 2026",
-        likes: 0,
+        likes: 1,
         works: [
-          /*{
-            id: "jibontori",
-            title: "জীবন তরী ✨",
+          {
+            id: "osim-er-thikana",
+            title: "অসীমের ঠিকানা",
             category: "Poem",
             language: "bengali",
             featured: true,
             date: "November 2026",
-            content: `আমার জীবন তরী,
-            নয় যে খুব সোজা
-            নদীর মতো এঁকেবেঁকে যায়।
-            আমার জীবন তরী
-            একলা যে চায় যেতে,
-            যায় সে যেতে, নৌকা যেমন বায় 🍁`
-          },*/
+            content: `যাহা গন্তব্য ভেবে মন মোর হয় বিচলিত,
+            জানি তাহা নয় মোর ঠিকানা, নয় সে তো নিশ্চিত।
+            পথের বাঁকে মরীচিকা হয়ে যাহা দেয় শুধু ডাক,
+            সে তো ক্ষণিকের মায়া, মনের অলীক বিপাক।
+            এই ব্রহ্মাণ্ডের প্রান্ত ছাড়িয়ে যেথা মহাশূন্যের শেষ,
+            সেই অসীমের মাঝেই লুকানো মোর প্রকৃত দেশ।
+            যেথা পৌঁছে থেমে যায় সব চাওয়া-পাওয়ার খেলা,
+            নিভে যায় সব অস্থিরতা, কাটে সংশয়ের বেলা।
+            সেই পরম গন্তব্যেই হবে সব বিচলিতের শেষ,
+            অসীম শান্তিতে মিশে যাবে এই আত্মার অনিমেষ।`
+          },
         ]
       },  
        // ======= Sufi Fardin Islam =======
@@ -779,7 +783,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english,hindi",
         bio: "Guided by fortitude, unfazed by external noise.",
         joinedDate: "11 November 2026",
-        likes: 3,
+        likes: 8,
         works: [
           {
             id: "ochena-station-o-ek-oddhuto-trainer-golpo",
