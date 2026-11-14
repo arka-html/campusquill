@@ -605,7 +605,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Smile is the best way to hide pain ✨🌷",
         joinedDate: "7 November 2026",
-        likes: 11,
+        likes: 12,
         works: [
           {
             id: "jibontori",
@@ -626,7 +626,7 @@ And nothing's left to see more beautiful than thee.`
             title: "অন্তিম অপেক্ষা 🌼",
             category: "Poem",
             language: "bengali",
-            featured: true,
+            featured: false,
             date: "November 2026",
             content: `ও হে আফ্রিকা,
             ওহে আদিম মানব
