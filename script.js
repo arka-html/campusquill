@@ -14,7 +14,7 @@ const writers = [
     language: "english",
     bio: "শব্দজাল বুনি আপন ছন্দে!",
     joinedDate: "9 April 2026",
-    likes: 29,
+    likes: 25,
     works: [
       {
         id: "find-me",
@@ -78,7 +78,7 @@ For every piece of you still lives in me.`
     language: "bengali",
     bio: "Beyond time and form, the self dissolves into one infinite silence",
     joinedDate: "9 April 2026",
-    likes: 20,
+    likes: 23,
     works: [
       {
         id: "drishti-unmochon",
@@ -204,7 +204,7 @@ And nothing's left to see more beautiful than thee.`
     language: "bengali",
     bio: "অবুঝ অধরা মাধুরী",
     joinedDate: "9 April 2026",
-    likes: 32,
+    likes: 35,
     works: [
       {
         id: "Kakatas",
@@ -471,7 +471,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Simplicity Is The Ultimate Sophistication 💚 🍀",
         joinedDate: "10 April 2026",
-        likes: 11,
+        likes: 12,
         works: [
           {
             id: "aro-kichukkhon-thakle-na-hoy",
@@ -500,7 +500,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali",
         bio: "𝑰'𝒎 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒅𝒓𝒆𝒂𝒎, 𝒕𝒉𝒆 𝒅𝒂𝒚 𝒊𝒔 𝒚𝒆𝒕 𝒕𝒐 𝒄𝒐𝒎𝒆...🌻",
         joinedDate: "13 April 2026",
-        likes: 23,
+        likes: 25,
         works: [
           {
             id: "chithi",
@@ -622,7 +622,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "Smile is the best way to hide pain ✨🌷",
         joinedDate: "7 November 2026",
-        likes: 12,
+        likes: 17,
         works: [
           {
             id: "jibontori",
@@ -690,6 +690,29 @@ And nothing's left to see more beautiful than thee.`
                       Still, I desire
                       Little attention from thee,
                       And I happy!🍁`
+          },{
+            id: "kalpana",
+            title: "কল্পনা ✨",
+            category: "Poem",
+            language: "bengali",
+            featured: true,
+            date: "November 2026",
+            content: `কল্পনা আমার চিরজীবনের সঙ্গী।
+                    আমি যা চাই তা হয়তো বাস্তবে হয় না, তবে কল্পনায় আমি সারাদিন 
+                    তাঁদের সঙ্গ পাই। 
+
+                    এ এক বিচিত্র জিনিস।
+                    আমি আনন্দ পাই, হাসতে পারি এই কল্পনা করে
+                    কিন্তু যখনি চোখ খুলি
+                    তখন কোথায়, কোথায় তারা?
+
+                    হ্যাঁ আমি ভালোবাসি কল্পনা করতে,
+                    কারণ কেউ বিচার করবে না, জানবে না,
+                    শুধু আমি, আমার যা পছন্দ 
+                    তা নিয়ে কল্পনাতে ডুবে থাকি।
+
+                    সত্যি, যদি এটুকু আনন্দ 
+                    জীবনে না থাকত, এতদিন আমার অস্তিত্ব কঙ্কালের হাড়ের মতো সাদা হয়ে আসতো। `
           },
         ]
       },   
@@ -733,7 +756,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali",
         bio: "নীরবতায় সব প্রকাশ করি,শব্দে কিছু বলি না।",
         joinedDate: "11 November 2026",
-        likes: 2,
+        likes: 7,
         works: [
           {
             id: "onurage-bhalobasha",
@@ -767,7 +790,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english",
         bio: "যাহা আমার গন্তব্য ভেবে বিচালিত হয়, তাহা আমার গন্তব্য নহে। এই ব্রহ্মাণ্ড প্রান্ত  শেষ, সেই গন্তব্য মধ্যেই বিচলিত শেষ।",
         joinedDate: "11 November 2026",
-        likes: 1,
+        likes: 9,
         works: [
           {
             id: "osim-er-thikana",
@@ -831,7 +854,7 @@ And nothing's left to see more beautiful than thee.`
         language: "bengali, english,hindi",
         bio: "Guided by fortitude, unfazed by external noise.",
         joinedDate: "11 November 2026",
-        likes: 8,
+        likes: 12,
         works: [
           {
             id: "ochena-station-o-ek-oddhuto-trainer-golpo",
