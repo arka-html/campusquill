@@ -2135,3 +2135,46 @@ body.dark-mode .founder-badge {
     padding: 0.8rem 1.2rem;
   }
 }
+
+@media print {
+  @page {
+    margin: 18mm;
+  }
+
+  body > *:not(#modalOverlay) {
+    display: none !important;
+  }
+
+  #modalOverlay {
+    position: static !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+
+  .modal-box {
+    width: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #000 !important;
+    transform: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+  }
+
+  .modal-box * {
+    color: #000 !important;
+  }
+
+  .modal-close,
+  .modal-actions {
+    display: none !important;
+  }
+}
